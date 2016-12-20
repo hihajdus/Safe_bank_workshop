@@ -1,0 +1,8 @@
+$phoneS: "(max-width: 479px)";
+
+@media #{$phoneS} {
+  [class*='col-']{
+    display: flex;
+    width:100%;
+  }
+}
