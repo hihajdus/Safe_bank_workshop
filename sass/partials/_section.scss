@@ -1,2 +1,58 @@
+/* --- header --- */
 
-  
+#header {
+    #logo {
+        justify-content: center;
+        #image_logo {
+            background-image: url('../images/logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 10vh;
+            width: 45vw;
+        }
+    }
+    #login {
+        justify-content: flex-end;
+    }
+}
+
+/* --- landscape --- */
+
+#section_landscape {
+    background-image: url('../images/zdjecie_1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: blue;
+    width: 100vw;
+    height: 50vh;
+    #element_decoration {
+
+    }
+    #window {
+
+    }
+}
+
+
+/* --- key --- */
+
+#section_key {
+    .container {
+
+    }
+    #image_key {
+        background-image: url('../images/klucze.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20vh;
+        width: 20vh;
+
+    }
+    #text_key {
+        
+    }
+    #slide {
+
+    }
+}
