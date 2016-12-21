@@ -1,0 +1,17 @@
+
+
+body {
+  font-size: 100%;
+
+}
+
+$phoneS: "(max-width: 479px)";
+
+@media #{$phoneS} {
+
+    p {
+        font-size: 1rem;
+    }
+
+
+}

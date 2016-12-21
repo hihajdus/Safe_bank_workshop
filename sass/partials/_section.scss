@@ -2,7 +2,7 @@
 
 #header {
     #logo {
-        justify-content: center;
+
         #image_logo {
             background-image: url('../images/logo.png');
             background-size: contain;
@@ -39,6 +39,8 @@
 
 #section_key {
     .container {
+        //position: relative;
+        height: 100%;
 
     }
     #image_key {
@@ -50,9 +52,73 @@
 
     }
     #text_key {
-        
+        //position: absolute;
+
+        width: 80%;
     }
     #slide {
-
+        width: 80%;
+        #slide_price {
+            height: 2vh;
+            //width: 100%;
+            background-color: green;
+        }
+        #slide_time {
+            height: 2vh;
+            background-color: green;
+        }
     }
+
+}
+
+/* --- section_icons --- */
+
+#section_icons {
+  div:nth-child(n) {
+      background-color: lightgreen;
+      flex-direction: column;
+  }
+    #icon_computer {
+        background-image: url('../images/ikona_komputer.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 10vh;
+    }
+    #icon_cloud {
+        background-image: url('../images/logo_chmurka.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 10vh;
+    }
+    #icon_percent {
+        background-image: url('../images/ikona_procent.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 10vh;
+    }
+}
+
+
+/* --- section_details --- */
+
+#section_details {
+  div:nth-child(n) {
+      justify-content: flex-start;
+  }
+}
+
+/* --- footer --- */
+
+#footer {
+  div:nth-child(1) {
+      flex-direction: column;
+      align-items: flex-start;
+
+  }
+  div:nth-child(2) {
+      justify-content: flex-start;
+  }
 }
