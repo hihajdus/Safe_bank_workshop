@@ -54,6 +54,7 @@
     }
 
 
+
 }
 
 
@@ -72,13 +73,26 @@
   display: none;
 }
 
+#menu {
+  .container {
+    justify-content: flex-end;
+  }
+  p {
+    margin-right: 10px;
+  }
+}
 
-
+#decoration {
+  height: 10px;
+  width: 100%;
+  background: #4CAF50;
+}
 
 
 /* --- landscape --- */
 
 #section_landscape {
+    justify-content: flex-end;
     background-image: url('../images/zdjecie_1.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,7 +104,21 @@
 
     }
     #window {
-
+      background: #4CAF50;
+      width: 220px;
+      height: 130px;
+      button {
+        background-color: black;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        text-decoration: none;
+        margin: 45px 2px;
+        cursor: pointer;
+        padding: 5px 32px;
+      }
+      padding: 12px;
+      border-radius: 4px;
     }
 }
 
